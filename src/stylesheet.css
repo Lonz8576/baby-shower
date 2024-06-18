@@ -34,8 +34,8 @@ h1, h2,
 h3, h4 {
   text-wrap: balance;
 }
-a:not([class]) {
-  text-decoration-skip-ink: auto;
+a {
+  text-decoration: none;
   color: currentColor;
 }
 img,
@@ -48,9 +48,7 @@ textarea, select {
   font-family: inherit;
   font-size: inherit;
 }
-textarea:not([rows]) {
-  min-height: 10em;
-}
+
 /* Layout */
 main{
     background-color: rgb(247, 247, 247);
@@ -73,14 +71,69 @@ main{
 
 
 
-
-
-
-/* text */
+/* text/components */
 h1{
     font-family: "Gwendolyn", cursive;
     font-weight: 700;
     margin: 0 auto;
     font-size: 6em;
     color: #ebd3a8;
+}
+.card{
+  display:flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #eaddc3;
+}
+.card-body{
+  color: #3a6ba3;
+  font-family:"Poppins",sans-serif;
+  letter-spacing: .15em;
+}
+.card-title{
+  letter-spacing: .15em;
+  font-size: 2em;
+  font-weight: 600;
+}
+.join-us{
+  font-family: 'Times', serif;
+  font-style: italic;
+  letter-spacing: 0;
+  font-size: 1em;
+}
+.date{
+  font-weight: 600;
+}
+.time{
+  margin-top: -1em;
+  padding-bottom: 1em;
+}
+.links{
+  letter-spacing: 0;
+  font-weight: 400;
+  display: flex;
+  justify-content: space-evenly;
+}
+.celebrate{
+  font-family: 'Times', serif;
+  font-style: italic;
+  font-size: 1.5em;
+}
+label{
+  align-content: flex-start;
+  font-weight: 600;
+  color: #3a6ba3;
+  font-family:"Poppins",sans-serif;
+}
+
+
+/* game */
+.game-title{
+  font-weight: 600;
+  color: #3a6ba3;
+  font-family:"Poppins",sans-serif;
+}
+small{
+  font-size: .5em;
+  align-content: center;
 }
