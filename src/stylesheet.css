@@ -55,7 +55,7 @@ main{
     min-height: 100vh;
 }
 .header-img{
-    background-image: url(./image/rainbow-1.jpg);
+    background-image: url(https://s3.amazonaws.com/shecodesio-production/uploads/files/000/129/216/original/rainbow-1.jpg?1718490763);
     min-height: 18em;
     background-position: center center;
 }
@@ -136,4 +136,14 @@ label{
 small{
   font-size: .5em;
   align-content: center;
+}
+
+.footer{
+  font-weight: 600;
+  color: #3a6ba3;
+  font-family:"Poppins",sans-serif;
+
+
+
+
 }
