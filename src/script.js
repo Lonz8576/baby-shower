@@ -1,4 +1,4 @@
-/* const guestForm = document.getElementById('guestForm');
+ const guestForm = document.getElementById('guestForm');
 const guestList = document.getElementById('guestList');
 
 guestForm.addEventListener('submit', function (e) {
@@ -18,6 +18,6 @@ guestForm.addEventListener('submit', function (e) {
 				<p><strong>Attending/Attended:</strong> ${attend}</p>`;
 
 	guestList.appendChild(guestCard);
-
+	console.log(guestCard);
 	guestForm.reset();
-});*/
+});
