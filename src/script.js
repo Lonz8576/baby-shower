@@ -9,15 +9,7 @@ guestForm.addEventListener('submit', function (e) {
 	const mobile = document.getElementById('mobile').value;
 	const attend = document.getElementById('attend').value;
 
-	const guestCard = document.createElement('div');
-	guestCard.classList.add('guest-card');
-	guestCard.innerHTML = `
-				<h2>${name}</h2>
-				<p><strong>Address:</strong> ${address}</p>
-				<p><strong>Mobile:</strong> ${mobile}</p>
-				<p><strong>Attending/Attended:</strong> ${attend}</p>`;
+	console.log(value);
 
-	guestList.appendChild(guestCard);
-	console.log(guestCard);
 	guestForm.reset();
 });
